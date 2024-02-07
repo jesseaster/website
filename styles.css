@@ -77,11 +77,22 @@ nav input {
     vertical-align:bottom;
 }
 
+/* Desktops */
 section {
     position: relative;
     width: 50%;
     margin-top: 7%;
     margin-left: 25%;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    section {
+        position: relative;
+        width: 80%;
+        margin-top: 7%;
+        margin-left: 10%;
+    }
 }
 
 section img {
